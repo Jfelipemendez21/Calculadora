@@ -1,0 +1,55 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+table {
+    border: 1px solid grey;
+    width: 500px;
+    max-width: 25%;
+    height: 500px;
+    background-color: red;
+}
+
+
+#resultado{
+    display: block;
+    text-align: end;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+
+
+td button {
+    width: 70px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+#reset {
+    width: 120px;
+}
+
+#borrar {
+    width:fit-content;
+}
+
+
+button:hover {
+    background-color: rgb(209, 202, 202);
+}
+
+tr {
+    display: flex;
+    margin: 10px;
+}
